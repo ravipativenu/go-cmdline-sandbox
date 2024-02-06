@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/ravipativenu/go-cmdline-sandbox/cf"
+)
 
 func main() {
+	cf.CfRun()
 	fmt.Println("Hello, world.")
 }
